@@ -3,7 +3,6 @@
  */
 'use strict';
 import * as types from './mutation-types';
-console.log(types);
 
 const mutations = {
   [types.SET_SINGER](state, singer) {
